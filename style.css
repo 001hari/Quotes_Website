@@ -1,0 +1,46 @@
+main {
+    margin: 0;
+    padding: 0;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6caca; 
+}
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: 50vh;
+    padding: 20px; 
+    border: 1px solid #212121; 
+    background-color: rgb(208, 242, 242);
+}
+
+footer {
+    background-color: rgb(64, 186, 186);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    justify-content: end;
+  }
+
+  
+  .special-mark {
+    color: #ff6347; 
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: baseline;
+  }
+
+  .contact-info {
+    text-align: left;
+  }

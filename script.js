@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const xhr = new XMLHttpRequest();
-  const url = 'https://api.quotable.io/random';
+  const url = 'https://type.fit/api/quotes';
   const pera = document.getElementById('pera');
 
   function handleResponse() {
